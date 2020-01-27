@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+The style file: alpha.bst
+Database file #1: literature.bib.bib
+Warning--I didn't find a database entry for "bibid"
+Warning--I didn't find a database entry for "guyon2003introduction"
+Warning--I didn't find a database entry for "musto2016semantics"
+Warning--I didn't find a database entry for "paulheim2012unsupervised"
+Warning--I didn't find a database entry for "spahiu2016abstat"
+Warning--I didn't find a database entry for "nguyen2015evaluation"
+Warning--I didn't find a database entry for "adomavicius2011improving"
+You've used 1 entry,
+            2543 wiz_defined-function locations,
+            571 strings with 4831 characters,
+and the built_in function-call counts, 676 in all, are:
+= -- 67
+> -- 31
+< -- 1
++ -- 12
+- -- 12
+* -- 46
+:= -- 105
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 8
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 28
+empty$ -- 48
+format.name$ -- 13
+if$ -- 145
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 3
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 29
+stack$ -- 0
+substring$ -- 47
+swap$ -- 13
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 6
+width$ -- 2
+write$ -- 15
+(There were 7 warnings)

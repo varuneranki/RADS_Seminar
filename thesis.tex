@@ -1,0 +1,63 @@
+\documentclass[]{upb_cs_thesis} % include german inside brackets for a German thesis
+
+% load your own packages and user-defined commands
+\input{packages}
+%\input{commands}
+
+
+% set up some resources (graphics and bibliography)
+\graphicspath{{figures/}}
+
+
+%%%%%%%%%
+% your thesis title, name, advisor, etc. go here;
+%%%%%%%%%
+\title{A Hybrid Graph Model for Distant Supervision Relation Extraction : A Report}
+\author{Varun Maitreya Eranki}
+\thesistype{Seminar Report}
+%\thesistype{Bachelor's Thesis}
+%\thesistype{Masterarbeit}
+%\thesistype{Bachelorarbeit}
+\degree{Seminar on}
+%\degree{Bachelor of Science}
+\researchgroup{DICE}
+\supervisor{Diego Moussalem}
+\submissiondate{\today{}}
+
+
+% here your thesis really starts
+\begin{document}
+
+% start with the titlepage, the formalities, and then the abstract
+\input{pretext/titlepage} % prints the title page
+\input{pretext/erklaerung} % prints the statement that you worked on your own and did not commit plagiarism
+\cleardoublepage
+\vspace*{\fill}
+\begin{abstract}
+	\input{abstract}
+\end{abstract}
+\vspace*{\fill}
+\emptypage
+
+\tableofcontents % prints the table of contents
+
+
+%%%%%%%%%
+% the contents of your thesis go into file body.tex
+%%%%%%%%%
+\input{body}
+
+% include the bibliography, and add it as a chapter the table of contents
+\newpage
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{alpha}
+\bibliography{literature.bib}
+
+
+%%%%%%%%%
+% the appendices of your thesis go into file appendix.tex
+%%%%%%%%%
+\appendix
+\input{appendix}
+
+\end{document}

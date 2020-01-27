@@ -1,0 +1,12 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Concepts}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Feature Selection: State-of-the-art vs Ontology Based}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Feature selection by State-of-the-art techniques}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Feature selection - Ontology based technique}{6}{section.3.2}
+\contentsline {chapter}{\numberline {4}Recommendation Method}{9}{chapter.4}
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Setup, Measures and Implementation}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Results and Discussion}{12}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusion and Future work}{17}{chapter.6}
+\contentsline {chapter}{Bibliography}{18}{chapter.6}
