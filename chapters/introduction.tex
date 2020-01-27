@@ -1,0 +1,21 @@
+\chapter{Introduction}
+\label{ch:introduction}
+
+\newpar
+From plain text, the task of extracting semantic relations between two or more entities, is known as Relation Extraction (RE). These relations can exist in different types. For example, \txti{"Germany is in Europe"} states a \txti{"is in"} relationship between \txti{"Germany"} and \txti{"Europe"}. With this information, a triple can be formed, \txti{<Germany, is in, Europe>}. Efficient RE is useful for applications like Knowledge Graph (KG) completion and question answering, which are in turn responsible for dependent applications. 
+
+
+%%%%%add references %%%%%%%%%%
+\newpar
+Traditionally, supervised RE techniques produce elevated performance for RE\cite{bibid}. They solely rely on labeled data that is manually annotated. Manual annotation is time consuming and need an army of annotators. It is generally annotated into entities and relationships(entities: \txti{"Germany", "Europe"} relationship: \txti{"is in"}). This limitations strongly suggest need for semi-supervised or unsupervised RE techniques that are reliable enough and can mimic manual annotation. 
+
+\newpar
+Distant Supervision (DS) aims at solving this limitation by automatic production of labeled data by aligning KGs and plain text. In this process, it makes an assumption that, if there exists a relationship between two entities (\txti{e1, e2}) in Knowledge Base (KB), then all the sentences that consist \txti{e1, e2} express that relationship in some way\cite{zeng2015distant}. 
+%%%use the same example of steve jobs%%%%%%
+
+This introduces noise problem. It can be countered using Deep Neural Network (DNN) models, which try to provide a significant improvement, but fail in making predictions due to lack of sufficient background information associated with entities and relationships. For example, %%%%%%use steve jobs example%%%%%%
+%%%%%%%%%%find citations%%%%%%%%%%
+DNNs create bias at each stage and especially with long-tail relations, background information tend to be unusable for making predictions. They are mostly constructed for customized models to join knowledge that is limited to incorporate heterogeneous background information in parallel. Some of the methods did not handle the side effect caused due to introduced noise. 
+
+%%%%%%%%introduce the topic%%%%%%%%%%
+
