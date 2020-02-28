@@ -1,4 +1,82 @@
-\begin{thebibliography}{ZLCZ15}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DGLQ19}
+
+\bibitem[BDH96]{beale1996neural}
+Hagan~Demuth Beale, Howard~B Demuth, and MT~Hagan.
+\newblock Neural network design.
+\newblock {\em Pws, Boston}, 1996.
+
+\bibitem[BZSL13]{bruna2013spectral}
+Joan Bruna, Wojciech Zaremba, Arthur Szlam, and Yann LeCun.
+\newblock Spectral networks and locally connected networks on graphs.
+\newblock {\em arXiv preprint arXiv:1312.6203}, 2013.
+
+\bibitem[DBV16]{defferrard2016convolutional}
+Micha{\"e}l Defferrard, Xavier Bresson, and Pierre Vandergheynst.
+\newblock Convolutional neural networks on graphs with fast localized spectral
+  filtering.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3844--3852, 2016.
+
+\bibitem[DGLQ19]{duan2019hybrid}
+Shangfu Duan, Huan Gao, Bing Liu, and Guilin Qi.
+\newblock A hybrid graph model for distant supervision relation extraction.
+\newblock In {\em European Semantic Web Conference}, pages 36--51. Springer,
+  2019.
+
+\bibitem[GMS05]{gori2005new}
+Marco Gori, Gabriele Monfardini, and Franco Scarselli.
+\newblock A new model for learning in graph domains.
+\newblock In {\em Proceedings. 2005 IEEE International Joint Conference on
+  Neural Networks, 2005.}, volume~2, pages 729--734. IEEE, 2005.
+
+\bibitem[GSK{\etalchar{+}}16]{greff2016lstm}
+Klaus Greff, Rupesh~K Srivastava, Jan Koutn{\'\i}k, Bas~R Steunebrink, and
+  J{\"u}rgen Schmidhuber.
+\newblock {LSTM}: A search space odyssey.
+\newblock {\em IEEE transactions on neural networks and learning systems},
+  28(10):2222--2232, 2016.
+
+\bibitem[HS97]{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
+\bibitem[KW16]{kipf2016semi}
+Thomas~N Kipf and Max Welling.
+\newblock Semi-supervised classification with graph convolutional networks.
+\newblock {\em arXiv preprint arXiv:1609.02907}, 2016.
+
+\bibitem[LHW18]{li2018deeper}
+Qimai Li, Zhichao Han, and Xiao-Ming Wu.
+\newblock Deeper insights into graph convolutional networks for semi-supervised
+  learning.
+\newblock In {\em Thirty-Second AAAI Conference on Artificial Intelligence},
+  2018.
+
+\bibitem[MBSJ09]{mintz2009distant}
+Mike Mintz, Steven Bills, Rion Snow, and Dan Jurafsky.
+\newblock Distant supervision for relation extraction without labeled data.
+\newblock In {\em Proceedings of the Joint Conference of the 47th Annual
+  Meeting of the ACL and the 4th International Joint Conference on Natural
+  Language Processing of the AFNLP: Volume 2-Volume 2}, pages 1003--1011.
+  Association for Computational Linguistics, 2009.
+
+\bibitem[Ola]{colah}
+Christopher Olah.
+\newblock Simple {LSTM}.
+\newblock \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}.
+
+\bibitem[SCM18]{smirnova2018relation}
+Alisa Smirnova and Philippe Cudr{\'e}-Mauroux.
+\newblock Relation extraction using distant supervision: A survey.
+\newblock {\em ACM Computing Surveys (CSUR)}, 51(5):1--35, 2018.
+
+\bibitem[SGT{\etalchar{+}}08]{scarselli2008graph}
+Franco Scarselli, Marco Gori, Ah~Chung Tsoi, Markus Hagenbuchner, and Gabriele
+  Monfardini.
+\newblock The graph neural network model.
+\newblock {\em IEEE Transactions on Neural Networks}, 20(1):61--80, 2008.
 
 \bibitem[ZLCZ15]{zeng2015distant}
 Daojian Zeng, Kang Liu, Yubo Chen, and Jun Zhao.
@@ -6,5 +84,22 @@ Daojian Zeng, Kang Liu, Yubo Chen, and Jun Zhao.
   convolutional neural networks.
 \newblock In {\em Proceedings of the 2015 conference on empirical methods in
   natural language processing}, pages 1753--1762, 2015.
+
+\bibitem[ZLL{\etalchar{+}}14]{zeng2014relation}
+Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou, Jun Zhao, et~al.
+\newblock Relation classification via convolutional deep neural network.
+\newblock 2014.
+
+\bibitem[ZLLS16]{zeng2016incorporating}
+Wenyuan Zeng, Yankai Lin, Zhiyuan Liu, and Maosong Sun.
+\newblock Incorporating relation paths in neural relation extraction.
+\newblock {\em arXiv preprint arXiv:1609.07479}, 2016.
+
+\bibitem[ZSK12]{zimek2012survey}
+Arthur Zimek, Erich Schubert, and Hans-Peter Kriegel.
+\newblock A survey on unsupervised outlier detection in high-dimensional
+  numerical data.
+\newblock {\em Statistical Analysis and Data Mining: The ASA Data Science
+  Journal}, 5(5):363--387, 2012.
 
 \end{thebibliography}
