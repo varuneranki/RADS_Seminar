@@ -7,45 +7,45 @@ Warning--entry type for "colah" isn't style-file defined
 --line 149 of file literature.bib.bib
 Warning--I didn't find a database entry for "bibid"
 Warning--empty journal in zeng2014relation
-You've used 17 entries,
+You've used 18 entries,
             2543 wiz_defined-function locations,
-            662 strings with 7741 characters,
-and the built_in function-call counts, 8041 in all, are:
-= -- 805
-> -- 455
+            668 strings with 7893 characters,
+and the built_in function-call counts, 8452 in all, are:
+= -- 849
+> -- 474
 < -- 7
-+ -- 170
-- -- 166
-* -- 589
-:= -- 1323
-add.period$ -- 54
-call.type$ -- 17
-change.case$ -- 125
-chr.to.int$ -- 17
-cite$ -- 18
-duplicate$ -- 297
-empty$ -- 532
-format.name$ -- 181
-if$ -- 1640
++ -- 176
+- -- 172
+* -- 621
+:= -- 1392
+add.period$ -- 57
+call.type$ -- 18
+change.case$ -- 130
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 311
+empty$ -- 562
+format.name$ -- 187
+if$ -- 1723
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 89
-num.names$ -- 51
-pop$ -- 128
+missing$ -- 17
+newline$ -- 94
+num.names$ -- 54
+pop$ -- 130
 preamble$ -- 1
-purify$ -- 142
+purify$ -- 148
 quote$ -- 0
-skip$ -- 262
+skip$ -- 276
 stack$ -- 0
-substring$ -- 421
-swap$ -- 72
+substring$ -- 453
+swap$ -- 73
 text.length$ -- 7
 text.prefix$ -- 1
 top$ -- 0
-type$ -- 136
+type$ -- 144
 warning$ -- 1
-while$ -- 75
-width$ -- 23
-write$ -- 219
+while$ -- 80
+width$ -- 24
+write$ -- 232
 (There were 3 warnings)

@@ -67,6 +67,12 @@ Christopher Olah.
 \newblock Simple {LSTM}.
 \newblock \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}.
 
+\bibitem[S{\etalchar{+}}08]{sarawagi2008information}
+Sunita Sarawagi et~al.
+\newblock Information extraction.
+\newblock {\em Foundations and Trends{\textregistered} in Databases},
+  1(3):261--377, 2008.
+
 \bibitem[SCM18]{smirnova2018relation}
 Alisa Smirnova and Philippe Cudr{\'e}-Mauroux.
 \newblock Relation extraction using distant supervision: A survey.

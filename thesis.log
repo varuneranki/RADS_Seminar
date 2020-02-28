@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  28 FEB 2020 01:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  28 FEB 2020 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,7 +1357,7 @@ LaTeX Info: Redefining \nameref on input line 29.
 .................................................
 
 (./pretext/titlepage.tex
-<figures/uni-logo.pdf, id=50, 555.07375pt x 146.5475pt>
+<figures/uni-logo.pdf, id=62, 555.07375pt x 146.5475pt>
 File: figures/uni-logo.pdf Graphic file (type pdf)
 <use figures/uni-logo.pdf>
 Package pdftex.def Info: figures/uni-logo.pdf  used on input line 9.
@@ -1427,10 +1427,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./body.tex (./chapters/introduction.tex
 Chapter 1.
-
-Package natbib Warning: Citation `bibid' on page 1 undefined on input line 10.
-
-<figures/dsexample.PNG, id=113, 3086.53125pt x 978.65625pt>
+<figures/dsexample.PNG, id=130, 3086.53125pt x 978.65625pt>
 File: figures/dsexample.PNG Graphic file (type png)
 <use figures/dsexample.PNG>
 Package pdftex.def Info: figures/dsexample.PNG  used on input line 18.
@@ -1460,12 +1457,12 @@ Package natbib Warning: Citation `bibid' on page 3 undefined on input line 18.
 [3
 
 ]
-<figures/RNNencoder.PNG, id=142, 1391.1975pt x 651.18282pt>
+<figures/RNNencoder.PNG, id=159, 1391.1975pt x 651.18282pt>
 File: figures/RNNencoder.PNG Graphic file (type png)
 <use figures/RNNencoder.PNG>
 Package pdftex.def Info: figures/RNNencoder.PNG  used on input line 43.
 (pdftex.def)             Requested size: 208.67062pt x 97.6732pt.
-<figures/LSTMARCH.PNG, id=145, 806.89455pt x 303.17265pt>
+<figures/LSTMARCH.PNG, id=162, 806.89455pt x 303.17265pt>
 File: figures/LSTMARCH.PNG Graphic file (type png)
 <use figures/LSTMARCH.PNG>
 Package pdftex.def Info: figures/LSTMARCH.PNG  used on input line 56.
@@ -1477,7 +1474,7 @@ Package pdftex.def Info: figures/LSTMARCH.PNG  used on input line 56.
                                                   \fi \fi 
 l.73 
       <./figures/RNNencoder.PNG> <./figures/LSTMARCH.PNG>]
-<figures/convolution.PNG, id=174, 988.44281pt x 386.94562pt>
+<figures/convolution.PNG, id=191, 988.44281pt x 386.94562pt>
 File: figures/convolution.PNG Graphic file (type png)
 <use figures/convolution.PNG>
 Package pdftex.def Info: figures/convolution.PNG  used on input line 96.
@@ -1487,33 +1484,69 @@ Package pdftex.def Info: figures/convolution.PNG  used on input line 96.
 
 ]
 Chapter 3.
-<figures/architecture.PNG, id=196, 1361.83781pt x 672.26157pt>
+<figures/architecture.PNG, id=213, 1361.83781pt x 672.26157pt>
 File: figures/architecture.PNG Graphic file (type png)
 <use figures/architecture.PNG>
 Package pdftex.def Info: figures/architecture.PNG  used on input line 8.
 (pdftex.def)             Requested size: 340.45862pt x 168.06497pt.
-<figures/LSTM.PNG, id=197, 1422.81563pt x 717.43031pt>
-File: figures/LSTM.PNG Graphic file (type png)
-<use figures/LSTM.PNG>
-Package pdftex.def Info: figures/LSTM.PNG  used on input line 21.
-(pdftex.def)             Requested size: 284.55809pt x 143.48352pt.
+<figures/infoenc.PNG, id=215, 665.3658pt x 351.2322pt>
+File: figures/infoenc.PNG Graphic file (type png)
+<use figures/infoenc.PNG>
+Package pdftex.def Info: figures/infoenc.PNG  used on input line 21.
+(pdftex.def)             Requested size: 332.68208pt x 175.61566pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chapters/discussion.tex [7 <./figures/architecture.PNG>] [8 <./figures/LST
-M.PNG>]
+[7 <./figures/architecture.PNG>]
+<figures/LSTMarchit.PNG, id=228, 823.075pt x 127.47626pt>
+File: figures/LSTMarchit.PNG Graphic file (type png)
+<use figures/LSTMarchit.PNG>
+Package pdftex.def Info: figures/LSTMarchit.PNG  used on input line 40.
+(pdftex.def)             Requested size: 164.61208pt x 25.4948pt.
+<figures/LSTM.PNG, id=229, 1422.81563pt x 717.43031pt>
+File: figures/LSTM.PNG Graphic file (type png)
+<use figures/LSTM.PNG>
+Package pdftex.def Info: figures/LSTM.PNG  used on input line 46.
+(pdftex.def)             Requested size: 426.84798pt x 215.23074pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/grapgconc.PNG, id=230, 802.6788pt x 372.4314pt>
+File: figures/grapgconc.PNG Graphic file (type png)
+<use figures/grapgconc.PNG>
+Package pdftex.def Info: figures/grapgconc.PNG  used on input line 55.
+(pdftex.def)             Requested size: 401.33841pt x 186.21524pt.
+[8 <./figures/infoenc.PNG> <./figures/LSTMarchit.PNG>] [9 <./figures/LSTM.PNG> 
+<./figures/grapgconc.PNG>]
+<figures/GCNatt.PNG, id=252, 195.50937pt x 263.97568pt>
+File: figures/GCNatt.PNG Graphic file (type png)
+<use figures/GCNatt.PNG>
+Package pdftex.def Info: figures/GCNatt.PNG  used on input line 68.
+(pdftex.def)             Requested size: 97.75444pt x 131.9875pt.
+) (./chapters/discussion.tex [10 <./figures/GCNatt.PNG>]
 Chapter 4.
-[9
+[11
 
-]) (./chapters/resultscomparisons.tex [10]
+]) (./chapters/resultscomparisons.tex [12]
 Chapter 5.
-) (./chapters/conclusion.tex [11
+<figures/results.PNG, id=283, 657.95813pt x 257.46187pt>
+File: figures/results.PNG Graphic file (type png)
+<use figures/results.PNG>
+Package pdftex.def Info: figures/results.PNG  used on input line 10.
+(pdftex.def)             Requested size: 460.56755pt x 180.22206pt.
 
-] [12
+Overfull \hbox (5.32344pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
 
-]
+) (./chapters/conclusion.tex [13
+
+ <./figures/results.PNG>] [14]
 Chapter 6.
-)) [13] (./thesis.bbl [14
+)) [15
+
+] (./thesis.bbl [16
 
 ]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 68.
@@ -1525,26 +1558,34 @@ Underfull \hbox (badness 7740) in paragraph at lines 66--69
 ps : / / colah . github . io / posts /
  []
 
-[15]) (./appendix.tex)
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 73.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 73.
+ [17]) (./appendix.tex)
 
 Package natbib Warning: There were undefined citations.
 
-[16]
+[18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6AF300893D38E030304BCD6731626121;648.
+(rerunfilecheck)             Checksum: 7BBE29961796EEDC1FA02A9498E85D9E;852.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  ) 
 Here is how much of TeX's memory you used:
- 29862 strings out of 492982
- 571527 string characters out of 6134895
- 666231 words of memory out of 5000000
- 32904 multiletter control sequences out of 15000+600000
- 586862 words of font info for 58 fonts, out of 8000000 for 9000
+ 29951 strings out of 492982
+ 572977 string characters out of 6134895
+ 666232 words of memory out of 5000000
+ 32962 multiletter control sequences out of 15000+600000
+ 607360 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,56p,10386b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -1558,15 +1599,15 @@ b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-
-Output written on thesis.pdf (24 pages, 1916996 bytes).
+f/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (26 pages, 2248794 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

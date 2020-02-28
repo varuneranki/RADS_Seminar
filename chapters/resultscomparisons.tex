@@ -1,5 +1,16 @@
 \chapter{Results and Comparisons}
 \label{ch:resultscomparisons}
 
-\newpar
 
+\subsubsection{Experimental Settings}
+Experimental Settings used by PCCN model\cite{zeng2016incorporating} was utilized with small changes to the optimal parameters. Pre-trained word embeddings on NYT corpus with embedding size $d_w = 100$ was used. PTransE model was trained for entity embedding, with dimension $d_e = 50$. The learning rate $\lambda = 0.01$ for Stochastic Gradient Descent. Mini-batch size $B = 50$ was used for training. Dropout was applied on last layer with dropout rate = 0.5 to avoid overfitting problem.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.7]{figures/results.PNG}
+	\caption{Aggregate Precision-Recall curves using held-out evaluation. (a) shows the comparison of HG model with other baseline models. (b) shows the noise problem of HG model in comparison with others due to incorporation of extra information}
+	\label{fig:results}
+\end{figure}
+
+\subsubsection{Results and Comparisons}
+Widely used benchmark for DSRE, NYT corpus was chosen and this models acts as a generator, by aligning a free base relation with the NYT corpus. The training data has approximately 200,000 entity types and heldout metrics was used to measure this model. This metrics approximates to the occurrences, if the predicted fact exists in this model, then the result can be accurate. Variants of HG model was compared to PCCN models. Fig.\ref{fig:results} shows the Precision-Recall curves, where HG is Hybrid Graph model and PCCN is Piece-wise Convolutional Neural Network model with multi instance learning. PCCN+Path and PCCN+KG are the Path embedding and Knowledge Graph embedding respectively, which are using the single type information embedding. Whereas HG model uses heterogeneous information by default. The experimental results in \ref{fig:results}(a) show, as the recall grows, the precision of PCCN rapidly drops. When in comparison with HG, the accuracy dropped with slow decay as the recall increases. To infer, performance of HG model, achieve best overall performance. In \ref{fig:results}(b) show variants of HG, HG+Path and HG+KG with specifically Path embedding and KG embedding respectively. This shows that with limiting HG model with same background information, it is still able to outperform with 5\% improvement at recall of 0.5. This is due to efficient extraction of additional features in the graph by HG model. With the introduction of KG information, it performs better than relation path information because, relation path information comes from the plain text and may contain lot of noise. So, it cannot help to predict the relation but KG is more accurate that plain text. 
